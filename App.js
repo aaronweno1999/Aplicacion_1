@@ -1,13 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
+
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { FontAwesome5, FontAwesome} from '@expo/vector-icons';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Bienvenidos</Text>
       <Text>Esta es mi primer aplicacion usando React</Text>
-      <StatusBar style="auto" />
+
     </View>
   );
 }
