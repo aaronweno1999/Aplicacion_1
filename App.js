@@ -103,7 +103,11 @@ function Katy_Perry({navigation}) {
       <View style={{flex:0.8, alignItems: "center"}}>
         <Text style={styles.titulo}>
           Katy Perry </Text>
-
+<View>
+  <Text>
+  Katheryn Elizabeth Hudson, conocida profesionalmente como Katy Perry, es una cantante, compositora y jueza de televisión estadounidense. Después de cantar en la iglesia durante su infancia, siguió una carrera en la música gospel cuando era adolescente. 
+  </Text>
+</View>
           
       <TouchableOpacity style={styles.boton1} onPress={()=>{
         navigation.navigate("Menu")}}>
@@ -127,6 +131,12 @@ function Ariana_Grande({navigation}) {
       <View style={{flex:0.8, alignItems: "center"}}>
         <Text style={styles.titulo}>
           Ariana Grande </Text>
+
+          <View>
+  <Text>
+  Ariana Grande-Butera es una cantante y actriz estadounidense. Nacida en Boca Raton, Florida, Grande comenzó su carrera a los 15 años en el musical de Broadway de 2008 13. Saltó a la fama por su papel de Cat Valentine en la serie de televisión de Nickelodeon Victorious y Sam y Cat.
+  </Text>
+</View>
 
           
       <TouchableOpacity style={styles.boton1} onPress={()=>{
@@ -152,6 +162,11 @@ function Marina({navigation}) {
         <Text style={styles.titulo}>
           Marina </Text>
 
+          <View>
+  <Text>
+  Marina Lambrini Diamandis, conocida como Marina y anteriormente con el nombre artístico de Marina and the Diamonds, es una cantante, compositora y productora de discos galesa. Diamandis nació en Brynmawr y se crió en Abergavenny. 
+  </Text>
+</View>
           
       <TouchableOpacity style={styles.boton1} onPress={()=>{
         navigation.navigate("Menu")}}>
@@ -176,6 +191,11 @@ function Dua_Lipa({navigation}) {
         <Text style={styles.titulo}>
           Dua Lipa </Text>
 
+          <View>
+  <Text>
+  Dua Lipa es una cantante y compositora inglesa. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017.
+  </Text>
+</View>
           
       <TouchableOpacity style={styles.boton1} onPress={()=>{
         navigation.navigate("Menu")}}>
@@ -200,6 +220,11 @@ function Paty_Cantú({navigation}) {
         <Text style={styles.titulo}>
           Paty Cantú </Text>
 
+          <View>
+  <Text>
+  Patricia Giovanna Cantú Velasco ​ conocida artísticamente como Paty Cantú, es una cantante y compositora mexicana. Inició su carrera profesional como miembro del dueto Lu con quien lanzó dos álbumes de estudio.
+  </Text>
+</View>
           
       <TouchableOpacity style={styles.boton1} onPress={()=>{
         navigation.navigate("Menu")}}>
@@ -234,7 +259,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#32a852',
+    backgroundColor: '#ffc300',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -251,32 +276,32 @@ const styles = StyleSheet.create({
     marginBottom:10
   },
   boton1:{
-    backgroundColor:'#2e5870',
+    backgroundColor:'#571845',
     paddingTop: 10,
     paddingBottom: 10,
     width: 150,
-    borderRadius:15,
+    borderRadius:5,
     alignItems: 'center',
     marginBottom: 20
 
     
   },
   boton2:{
-    backgroundColor:'#2f3030',
+    backgroundColor:'#c70039',
     paddingTop: 5,
     paddingBottom: 5,
     width: 40,
-    borderRadius:15,
+    borderRadius:25,
     alignItems: 'center',
  
   },
 
 boton3:{
-  backgroundColor:'#2f3030',
+  backgroundColor:'#ff5733',
   paddingTop: 10,
   paddingBottom: 10,
   width: 150,
-  borderRadius:15,
+  borderRadius:10,
   alignItems: 'center',
   marginBottom: 20
 
